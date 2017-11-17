@@ -293,6 +293,7 @@ cc.Class({
                 self.sendLoginRequest(data); //登录请求
             }, 1);
         };
+        this.getOnlyUserInfoByBrowser();
         //cc.sys.localStorage.removeItem("userinfo");
         // let search = window.location.search;
         // var openid = "JzIwMTcvNi8xNiDkuIrljYgxMMzowOCc=";
@@ -355,6 +356,62 @@ cc.Class({
         //}
     },
 
+    getOnlyUserInfoByBrowser: function getOnlyUserInfoByBrowser() {
+        var openid = "";
+        var unionid = "";
+        var nickname = "";
+
+        var testData = "";
+        var userInfo = manager.getUserInfo();
+
+        var search = window.location.search;
+        if (userInfo.length > 0) {
+            openid = userInfo.openId;
+            unionid = userInfo.unionid;
+            nickname = userInfo.nickname;
+        }
+
+        if (search) {
+            var url = window.location.search;
+            var loc = url.substring(url.lastIndexOf('=') + 1, url.length);
+            if (loc == 1) {
+                openid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc=';
+                unionid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc';
+                nickname = "guest_1";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            } else if (loc == 2) {
+                openid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw==';
+                unionid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw';
+                nickname = "guest_2";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            } else if (loc == 3) {
+                openid = 'JzIwMTctNi0xNiAwOTo0NToc=';
+                unionid = '8dOtAcDic5Sichv3lxtMXYmunTLOLv';
+                nickname = "guest_3";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            } else if (loc == 4) {
+                openid = 'ozlXIwgv_QJT0ykdUihaABmsWp2A';
+                unionid = 'o-3911qWsQsW3wUodqFfUtbsAeNk';
+                nickname = "guest_4";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            } else if (loc == 5) {
+                openid = 'JzIwMTcvNi8xNiDkuIrljYgxMDowMzowOCc=';
+                unionid = 'o-JzIwMTcvNi8xNiDkuIrljYgxMDowM';
+                nickname = "guest_5";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            } else if (loc == 6) {
+                openid = 'JzIwMTcvNi8xNiDkuIrljYgxMMzoc=';
+                unionid = 'o-zIwMTcvNi8xNiDkuIrl';
+                nickname = "guest_6";
+                testData = '{"openid":"' + openid + '","nickname":"' + nickname + '","unionid":"' + unionid + '","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+            }
+        }
+        if (testData && testData.length > 0) {
+            if (!cc.sys.isNative) {
+                manager.setUserInfo(testData);
+            }
+        }
+    },
     _registerSocketEvent: function _registerSocketEvent() {
         KQGlobalEvent.on(Socket.Event.ReceiveLoginJoin, this._LoginJoin, this);
         KQGlobalEvent.on(Socket.Event.ReceiveRecordId, this._ReceiveRecordId, this);

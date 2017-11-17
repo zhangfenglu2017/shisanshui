@@ -2069,14 +2069,14 @@
     "meta": 1510908055413,
     "relativePath": "scripts\\hall.js"
   },
-  "9c72d9fc-f32b-4fc5-95ab-6516b1b7972b": {
-    "asset": 1510908778160,
-    "meta": 1510908779303,
-    "relativePath": "scripts\\login.js"
-  },
   "cf75c2cb-368d-444d-b245-af1ff6de2fc7": {
     "asset": 1510910615031,
     "meta": 1510910615571,
     "relativePath": "scripts\\socket.js"
+  },
+  "9c72d9fc-f32b-4fc5-95ab-6516b1b7972b": {
+    "asset": 1510912791891,
+    "meta": 1510912792956,
+    "relativePath": "scripts\\login.js"
   }
 }
