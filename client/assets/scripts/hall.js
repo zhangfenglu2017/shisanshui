@@ -481,13 +481,13 @@ let hall = cc.Class({
     },
 
     logoutAction: function() {
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         cc.director.loadScene('login');
         hall.cacheImageInfo = null;
     },
 
     exitAction:function() {
-      manager.setUserInfo('');
+      //manager.setUserInfo('');
       if (!cc.sys.isNative) {
         cc.director.loadScene('login');
         hall.cacheImageInfo = null;

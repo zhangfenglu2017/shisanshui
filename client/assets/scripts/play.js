@@ -1447,7 +1447,7 @@ let Play = cc.Class({
     },
     logoutAction: function() {
         cc.director.loadScene('login');
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         //hall.cacheImageInfo = null;
     },
     _socketReciveOnlineStatus: function (response) {

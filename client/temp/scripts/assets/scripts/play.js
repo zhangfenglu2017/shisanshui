@@ -1464,7 +1464,7 @@ var Play = cc.Class({
     },
     logoutAction: function logoutAction() {
         cc.director.loadScene('login');
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         //hall.cacheImageInfo = null;
     },
     _socketReciveOnlineStatus: function _socketReciveOnlineStatus(response) {

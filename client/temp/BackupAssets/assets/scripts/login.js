@@ -17,6 +17,7 @@ var REDIRECT_URI = "http%3a%2f%2fo1o2.cn";
 
 let HREF = "https://open.weixin.qq.com/connect/oauth2/authorize?appid="+APPID+"&redirect_uri="+REDIRECT_URI+"&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
 
+
 cc.Class({
 
     extends: cc.Component,
@@ -255,49 +256,49 @@ cc.Class({
            },1);
         };
     
-        // let search = window.location.search;
-        // var openid = "JzIwMTcvNi8xNiDkuIrljYgxMMzowOCc=";
-        // var unionid = '8dOtAcDic5Sichv3lxtMXYJgmunTLOLv';
-        // var nickname = "哇哈哈";
-        // if (search) {
-        //     var url = window.location.search;
-        //     var loc = url.substring(url.lastIndexOf('=') + 1, url.length);
-        //     if (loc == 1) {
-        //         openid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc=';
-        //         unionid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc';
-        //         nickname = loc;
-        //     }
-        //     else if (loc == 2) {
-        //         openid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw==';
-        //         unionid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw';
-        //         nickname = loc;
-        //     }
-        //     else if (loc == 3) {
-        //         openid = 'JzIwMTctNi0xNiAwOTo0NToc=';
-        //         unionid = '8dOtAcDic5Sichv3lxtMXYmunTLOLv';
-        //         nickname = loc;
-        //     }
-        //     else if (loc == 4) {
-        //         openid = 'ozlXIwgv_QJT0ykdUihaABmsWp2A';
-        //         unionid = 'o-3911qWsQsW3wUodqFfUtbsAeNk';
-        //         nickname = loc;
-        //     }
-        //     else if (loc == 5) {
-        //         openid = 'JzIwMTcvNi8xNiDkuIrljYgxMDowMzowOCc=';
-        //          unionid = 'o-JzIwMTcvNi8xNiDkuIrljYgxMDowM';
-        //         nickname = loc;
-        //     }else if(loc == 6){
-        //         openid = 'JzIwMTcvNi8xNiDkuIrljYgxMMzoc=';
-        //          unionid = 'o-zIwMTcvNi8xNiDkuIrl';
-        //         nickname = loc;
-        //     }
-           
-        // }
-        // var testData = '{"openid":"'+openid+'","nickname":"'+nickname+'","unionid":"'+unionid+'","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
+         //let search = window.location.search;
+         var openid = "JzIwMTcvNi8xNiDkuIrljYgxMMzowOCc=";
+         var unionid = '8dOtAcDic5Sichv3lxtMXYJgmunTLOLv';
+         var nickname = "哇哈哈";
+         //if (search) {
+         //    var url = window.location.search;
+         //    var loc = url.substring(url.lastIndexOf('=') + 1, url.length);
+         //    if (loc == 1) {
+         //        openid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc=';
+         //        unionid = 'JzIwMTctNi0xNiAwOTo0NTo1OSc';
+         //        nickname = loc;
+         //    }
+         //    else if (loc == 2) {
+         //        openid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw==';
+         //        unionid = 'JzIwMTcvNi8xNiDkuIrljYg5OjM4OjMzJw';
+         //        nickname = loc;
+         //    }
+         //    else if (loc == 3) {
+         //        openid = 'JzIwMTctNi0xNiAwOTo0NToc=';
+         //        unionid = '8dOtAcDic5Sichv3lxtMXYmunTLOLv';
+         //        nickname = loc;
+         //    }
+         //    else if (loc == 4) {
+         //        openid = 'ozlXIwgv_QJT0ykdUihaABmsWp2A';
+         //        unionid = 'o-3911qWsQsW3wUodqFfUtbsAeNk';
+         //        nickname = loc;
+         //    }
+         //    else if (loc == 5) {
+         //        openid = 'JzIwMTcvNi8xNiDkuIrljYgxMDowMzowOCc=';
+         //         unionid = 'o-JzIwMTcvNi8xNiDkuIrljYgxMDowM';
+         //        nickname = loc;
+         //    }else if(loc == 6){
+         //        openid = 'JzIwMTcvNi8xNiDkuIrljYgxMMzoc=';
+         //         unionid = 'o-zIwMTcvNi8xNiDkuIrl';
+         //        nickname = loc;
+         //    }
+         //
+         //}
+         var testData = '{"openid":"'+openid+'","nickname":"'+nickname+'","unionid":"'+unionid+'","sex":1,"language":"zh_CN","city":"Changsha","province":"Hunan","country":"CN","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/8D8dOtAcDic5Sichv3lxtMXYJgmunTLOLvTT5AFM4zaqKEthZibv8xdWkgjN9Yb4AQnwvSurz27UB29xx81XORwx55XanxqctdD\/0","privilege":[]}';
 
-        // if (!cc.sys.isNative){
-        //     manager.setUserInfo(testData);
-        // }
+         if (!cc.sys.isNative){
+             manager.setUserInfo(testData);
+         }
     },
 
      _registerSocketEvent:function(){
@@ -404,7 +405,7 @@ cc.Class({
         }
         if (!cc.sys.isNative){
             // cc.sys.openURL(HREF);
-            window.location.href = HREF;
+            //window.location.href = HREF;
         }else{
           if (KQNativeInvoke.isNativeIOS()) {
             jsb.reflection.callStaticMethod(KQNativeInvoke.IOSClassName,"wxLogin");//IOS

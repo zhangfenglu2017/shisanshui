@@ -18,9 +18,7 @@
   "startScene": "36865db3-988f-4913-9d4e-89f0441e625c",
   "title": "SSZ",
   "webOrientation": "portrait",
-  "includeSDKBox": false,
-  "jailbreakPlatform": false,
-  "inlineSpriteFrames_native": true,
-  "optimizeHotUpdate": false,
-  "md5Cache": false
+  "includeSdk": [
+    "anysdk"
+  ]
 }

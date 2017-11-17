@@ -38,7 +38,7 @@ schedule.scheduleJob(rule, function(){
             console.log('[SELECT ERROR] -',error.message);
             return;
         }
-　　  console.log("执行删除大局数据程序");
+　　  //console.log("执行删除大局数据程序");
     })
 	
 	var sql_re ="DELETE FROM records WHERE UNIX_TIMESTAMP(creatAt)<UNIX_TIMESTAMP( DATE_SUB( CURDATE(),INTERVAL "+time+" WEEK))";
@@ -47,7 +47,7 @@ schedule.scheduleJob(rule, function(){
             console.log('[SELECT ERROR] -',error.message);
             return;
         }
-　　  console.log("执行删除小局数据程序");
+　　  //console.log("执行删除小局数据程序");
     })
 });
 
@@ -58,7 +58,7 @@ schedule.scheduleJob(rule,function(){
             console.log('[SELECT ERROR] -',error.message);
             return;
         }
-        console.log("半夜凌晨0点，可以更新信息啦！");
+        //console.log("半夜凌晨0点，可以更新信息啦！");
     })
 });
 
@@ -91,6 +91,7 @@ ws.on('connection', function(ws) {
     // 发送消息
     // user
     ws.on('message', function(jsonStr,flags) {
+        console.log("收到消息："+ JSON.stringify(JSON.parse(jsonStr)));
         //console.log("收到消息："+JSON.parse(jsonStr).action);
         manager.processAction(JSON.parse(jsonStr),ws);
     });

@@ -4,7 +4,7 @@
   "appABIs": [
     "armeabi-v7a"
   ],
-  "buildPath": "./build",
+  "buildPath": "F:\\goujian",
   "debug": false,
   "keystoreAlias": "android.keystore",
   "keystoreAliasPassword": "honggefeng8899",
@@ -16,6 +16,5 @@
   "sourceMaps": false,
   "template": "default",
   "useDebugKeystore": false,
-  "vsVersion": "auto",
-  "includeEruda": false
+  "vsVersion": "auto"
 }

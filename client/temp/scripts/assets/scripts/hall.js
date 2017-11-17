@@ -488,13 +488,13 @@ var hall = cc.Class({
     },
 
     logoutAction: function logoutAction() {
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         cc.director.loadScene('login');
         hall.cacheImageInfo = null;
     },
 
     exitAction: function exitAction() {
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         if (!cc.sys.isNative) {
             cc.director.loadScene('login');
             hall.cacheImageInfo = null;
