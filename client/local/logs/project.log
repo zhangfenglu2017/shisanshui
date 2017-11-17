@@ -1,74 +1,65 @@
-2017-11-17T07:12:35.595Z - normal: Load ~/.CocosCreator/settings.json
-2017-11-17T07:12:35.600Z - normal: checking language setting...
-2017-11-17T07:12:35.600Z - normal: Language: zh
-2017-11-17T07:12:37.653Z - success: protocol editor-framework registered
-2017-11-17T07:12:37.653Z - success: protocol app registered
-2017-11-17T07:12:37.653Z - success: protocol theme registered
-2017-11-17T07:12:37.653Z - success: protocol profile registered
-2017-11-17T07:12:37.653Z - success: protocol packages registered
-2017-11-17T07:12:37.653Z - success: protocol unpack registerred
-2017-11-17T07:12:37.654Z - success: protocol disable-commonjs registerred
-2017-11-17T07:12:37.781Z - normal: connected!
-2017-11-17T07:12:37.784Z - normal: Check project F:\shisanshui\client
-2017-11-17T07:12:37.786Z - normal: Initializing Cocos2d
-2017-11-17T07:12:38.541Z - normal: Initializing Asset Database
-2017-11-17T07:12:38.618Z - success: protocol uuid registerred
-2017-11-17T07:12:38.618Z - success: protocol db registerred
-2017-11-17T07:12:38.619Z - success: protocol thumbnail registerred
-2017-11-17T07:12:38.619Z - normal: Loading editor/builtin packages
-2017-11-17T07:12:38.953Z - success: assets loaded
-2017-11-17T07:12:38.956Z - success: builder loaded
-2017-11-17T07:12:38.959Z - success: hierarchy loaded
-2017-11-17T07:12:38.962Z - success: inspector loaded
-2017-11-17T07:12:38.981Z - success: keystore loaded
-2017-11-17T07:12:38.984Z - success: node-library loaded
-2017-11-17T07:12:38.987Z - success: preferences loaded
-2017-11-17T07:12:39.001Z - success: project-importer loaded
-2017-11-17T07:12:39.002Z - success: project-settings loaded
-2017-11-17T07:12:39.004Z - success: ui-kit loaded
-2017-11-17T07:12:39.009Z - success: ui-grid loaded
-2017-11-17T07:12:39.013Z - success: scene loaded
-2017-11-17T07:12:39.015Z - success: sprite-editor loaded
-2017-11-17T07:12:39.226Z - success: store loaded
-2017-11-17T07:12:39.232Z - success: timeline loaded
-2017-11-17T07:12:39.232Z - normal: Loading builtin packages
-2017-11-17T07:12:39.257Z - success: anysdk loaded
-2017-11-17T07:12:39.268Z - success: asset-db-debugger loaded
-2017-11-17T07:12:39.269Z - success: code-editor loaded
-2017-11-17T07:12:39.275Z - success: color-picker loaded
-2017-11-17T07:12:39.279Z - success: console loaded
-2017-11-17T07:12:39.281Z - success: package-manager loaded
-2017-11-17T07:12:39.284Z - success: tester loaded
-2017-11-17T07:12:39.286Z - success: ui-kit-preview-extra loaded
-2017-11-17T07:12:39.288Z - success: ui-kit-preview loaded
-2017-11-17T07:12:39.291Z - success: ui-tree loaded
-2017-11-17T07:12:39.413Z - normal: Initializing project F:\shisanshui\client
-2017-11-17T07:12:39.417Z - normal: Loading packages
-2017-11-17T07:12:39.421Z - normal: Watching packages
-2017-11-17T07:12:39.442Z - normal: Run Application
-2017-11-17T07:12:42.826Z - success: preview server running at http://localhost:7456
-2017-11-17T07:12:48.965Z - normal: 1.4.0
-2017-11-17T07:17:40.841Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-17T07:17:40.906Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-17T07:23:14.096Z - normal: Compiled project javascript file successfully
-2017-11-17T07:33:36.617Z - normal: Compiled project javascript file successfully
-2017-11-17T07:37:48.523Z - normal: Compiled project javascript file successfully
-2017-11-17T07:59:56.144Z - normal: Compiled project javascript file successfully
-2017-11-17T08:06:59.911Z - normal: Compiled project javascript file successfully
-2017-11-17T08:19:57.314Z - normal: Load worker timeout, reload worker.
-2017-11-17T08:20:17.323Z - normal: Compiled project javascript file successfully
-2017-11-17T08:24:52.980Z - normal: Compiled project javascript file successfully
-2017-11-17T08:29:34.855Z - normal: Compiled project javascript file successfully
-2017-11-17T08:32:55.600Z - normal: Compiled project javascript file successfully
-2017-11-17T08:40:59.656Z - normal: Compiled project javascript file successfully
-2017-11-17T08:53:04.362Z - normal: Compiled project javascript file successfully
-2017-11-17T09:23:40.552Z - normal: Compiled project javascript file successfully
-2017-11-17T09:59:59.200Z - normal: Compiled project javascript file successfully
+2017-11-17T13:43:07.203Z - normal: Load ~/.CocosCreator/settings.json
+2017-11-17T13:43:07.208Z - normal: checking language setting...
+2017-11-17T13:43:07.209Z - normal: Language: zh
+2017-11-17T13:43:11.725Z - success: protocol editor-framework registered
+2017-11-17T13:43:11.725Z - success: protocol app registered
+2017-11-17T13:43:11.725Z - success: protocol theme registered
+2017-11-17T13:43:11.725Z - success: protocol profile registered
+2017-11-17T13:43:11.725Z - success: protocol packages registered
+2017-11-17T13:43:11.726Z - success: protocol unpack registerred
+2017-11-17T13:43:11.726Z - success: protocol disable-commonjs registerred
+2017-11-17T13:43:11.868Z - normal: connected!
+2017-11-17T13:43:11.871Z - normal: Check project G:\shisanshui\client
+2017-11-17T13:43:11.873Z - normal: Initializing Cocos2d
+2017-11-17T13:43:19.641Z - normal: Initializing Asset Database
+2017-11-17T13:43:19.773Z - success: protocol uuid registerred
+2017-11-17T13:43:19.773Z - success: protocol db registerred
+2017-11-17T13:43:19.773Z - success: protocol thumbnail registerred
+2017-11-17T13:43:19.773Z - normal: Loading editor/builtin packages
+2017-11-17T13:43:23.144Z - success: assets loaded
+2017-11-17T13:43:23.191Z - success: builder loaded
+2017-11-17T13:43:23.277Z - success: hierarchy loaded
+2017-11-17T13:43:23.380Z - success: inspector loaded
+2017-11-17T13:43:23.410Z - success: keystore loaded
+2017-11-17T13:43:23.502Z - success: node-library loaded
+2017-11-17T13:43:23.614Z - success: preferences loaded
+2017-11-17T13:43:24.022Z - success: project-importer loaded
+2017-11-17T13:43:24.023Z - success: project-settings loaded
+2017-11-17T13:43:24.080Z - success: ui-kit loaded
+2017-11-17T13:43:24.093Z - success: ui-grid loaded
+2017-11-17T13:43:24.169Z - success: scene loaded
+2017-11-17T13:43:24.221Z - success: sprite-editor loaded
+2017-11-17T13:43:26.398Z - success: store loaded
+2017-11-17T13:43:26.505Z - success: timeline loaded
+2017-11-17T13:43:26.506Z - normal: Loading builtin packages
+2017-11-17T13:43:26.547Z - success: anysdk loaded
+2017-11-17T13:43:26.595Z - success: asset-db-debugger loaded
+2017-11-17T13:43:26.654Z - success: code-editor loaded
+2017-11-17T13:43:26.705Z - success: color-picker loaded
+2017-11-17T13:43:26.769Z - success: console loaded
+2017-11-17T13:43:26.814Z - success: package-manager loaded
+2017-11-17T13:43:26.879Z - success: tester loaded
+2017-11-17T13:43:26.902Z - success: ui-kit-preview-extra loaded
+2017-11-17T13:43:26.927Z - success: ui-kit-preview loaded
+2017-11-17T13:43:26.980Z - success: ui-tree loaded
+2017-11-17T13:43:27.445Z - normal: Initializing project G:\shisanshui\client
+2017-11-17T13:43:27.447Z - normal: Loading packages
+2017-11-17T13:43:27.451Z - normal: Watching packages
+2017-11-17T13:43:27.519Z - normal: Run Application
+2017-11-17T13:43:42.242Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["UI资源/粒子.png","UI资源/俱乐部_字.png","UI资源/c_00004.png","UI资源/c_00003.png","UI资源/c_00002.png","UI资源/c_00001.png","UI资源/c_00000.png","UI资源/g.png","UI资源/xd.png","UI资源/p.png","UI资源/创建.png","UI资源/cj_00009.png","UI资源/cj_00008.png","UI资源/cj_00007.png","UI资源/cj_00006.png","UI资源/cj_00005.png","UI资源/cj_00004.png","UI资源/jr_00003.png","UI资源/jr_00002.png","UI资源/jr_00001.png","UI资源/jr_00000.png","UI资源/闪光0.png","UI资源/加入.png"]
+2017-11-17T13:43:46.083Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["特按钮资源/quan2.png","特殊排型/battle-penjinbi-jinbi.png","特按钮资源/q_g.png","特按钮资源/特.png","coin_effect_dir/Symbol 1.png","coin_effect_dir/Symbol 2.png","coin_effect_dir/Symbol 3.png","特殊排型/04.png","特殊排型/03.png","特殊排型/02.png","特殊排型/01.png","特殊排型/枪.png","特殊排型/hit_02.png","特殊排型/hit_01.png","比牌资源/比牌中_3.png","比牌资源/比牌中_2.png","理牌中资源/理牌中_2.png","理牌中资源/理牌中_1.png","录音资源/录音_4.png","录音资源/录音_3.png","录音资源/录音_1.png","录音资源/录音_5.png","特殊排型/球.png","特殊排型/棒球棍.png","特殊排型/棒球套.png","特殊排型/q_字.png","start/kaishi.png","start/zi.png","start/01.png","start/shanguan.png","start/爆点.png","start/quan.png","start/qiang.png","start/翅膀.png","特殊排型/字.png","特殊排型/笋01.png","特殊排型/土.png","特殊排型/笋.png","特殊排型/笋02.png","特殊排型/tu.png","特殊排型/3_zi.png","特殊排型/6_zi.png","特殊排型/底.png","特殊排型/5_字.png","特殊排型/四_zi&#032.png","特殊排型/5_土.png","特殊排型/5_笋.png","特殊排型/5_笋01.png","特殊排型/5_笋02.png","特殊排型/5_tu.png","特殊排型/c_zi&#032.png","特殊排型/ui_fanpaidonghua.png","特殊排型/6_hua.png","特殊排型/6_hua01.png","特殊排型/白.png","特殊排型/方块.png","特殊排型/梅花.png","特殊排型/红.png","特殊排型/黑桃.png","特殊排型/全小_zi&#032.png","特殊排型/全_zi&#032.png","特殊排型/5_底.png","特殊排型/5_yun&#032.png","特殊排型/5_yun01.png","特殊排型/三_zi&#032.png","特殊排型/花瓣02.png","特殊排型/花瓣01.png","特殊排型/花瓣03.png","特殊排型/花.png","特殊排型/花01.png","特殊排型/3_字.png","特殊排型/彩虹.png","特殊排型/qi.png","特殊排型/皇冠.png","特殊排型/十二_zi.png","特殊排型/法杖.png","特殊排型/1_zi.png","特殊排型/龙.png","特殊排型/q_云02.png","特殊排型/q_云01.png","特殊排型/至尊_字.png","特殊排型/青龙.png","特殊排型/q_底.png"]
+2017-11-17T13:44:18.794Z - success: preview server running at http://localhost:7456
+2017-11-17T13:44:18.796Z - normal: Compiling scripts...
+2017-11-17T13:44:27.901Z - normal: Compiled project javascript file successfully
+2017-11-17T13:44:41.881Z - normal: 1.4.0
+2017-11-17T15:31:28.293Z - normal: Compiled project javascript file successfully
+2017-11-17T15:32:47.119Z - normal: Compiled project javascript file successfully
+2017-11-17T15:35:09.528Z - normal: Compiled project javascript file successfully
+2017-11-17T15:36:10.538Z - normal: Compiled project javascript file successfully
+2017-11-17T15:37:10.345Z - normal: Compiled project javascript file successfully
+2017-11-17T15:37:49.329Z - normal: Compiled project javascript file successfully
+2017-11-17T15:38:22.696Z - normal: Compiled project javascript file successfully
+2017-11-17T15:40:39.224Z - normal: Compiled project javascript file successfully
+2017-11-17T15:41:06.231Z - normal: Compiled project javascript file successfully
+2017-11-17T15:42:28.536Z - normal: Compiled project javascript file successfully
+2017-11-17T16:16:05.755Z - normal: Compiled project javascript file successfully

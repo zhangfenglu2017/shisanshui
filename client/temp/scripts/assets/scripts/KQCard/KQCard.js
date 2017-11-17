@@ -1739,7 +1739,7 @@ KQCard.isTeShuPai = function (cards) {
     /*|| KQCard.isSanTongHuaShun(cards)
      || KQCard.isSanFenTianXia(cards)
      || KQCard.isSiTaoSanTiao(cards)
-      || KQCard.isWuDuiSanTiao(cards)
+       || KQCard.isWuDuiSanTiao(cards)
      || KQCard.isCouYiSe(cards)*/;
 };
 
