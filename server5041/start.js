@@ -91,7 +91,7 @@ ws.on('connection', function(ws) {
     // 发送消息
     // user
     ws.on('message', function(jsonStr,flags) {
-        console.log("收到消息："+ JSON.stringify(JSON.parse(jsonStr)));
+        //console.log("收到消息："+ JSON.stringify(JSON.parse(jsonStr)));
         //console.log("收到消息："+JSON.parse(jsonStr).action);
         manager.processAction(JSON.parse(jsonStr),ws);
     });
