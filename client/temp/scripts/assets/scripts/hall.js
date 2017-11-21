@@ -2,6 +2,10 @@
 cc._RFpush(module, '1e6741Q2VFGDLupV88mg60Z', 'hall');
 // scripts\hall.js
 
+"use strict";
+cc._RFpush(module, '1e6741Q2VFGDLupV88mg60Z', 'hall');
+// scripts\hall.js
+
 var manager = require('manager');
 var Socket = require('socket');
 var KQGlobalEvent = require('KQGlobalEvent');
@@ -26,6 +30,7 @@ var hall = cc.Class({
         selectGuiPai: cc.Node, // 创建房间信息，模式（庄家模式和无特殊牌）
         overTime: cc.Node, // 超时出牌
         daikai: cc.Node, //代开房
+        my_room: cc.Node, //代开窗口
         //labelNotice: cc.Label,      // 公告
         labelBanner: cc.Label, // banner label
         recordNode: cc.Node,
@@ -171,8 +176,10 @@ var hall = cc.Class({
 
     clickWxShare: function clickWxShare() {
         if (!cc.sys.isNative) {
+            console.log("clickWxShare");
             this.wxshare.active = true;
         } else {
+            console.log("clickWxShare native");
             var title = cc.sys.localStorage.getItem('shareTitle');
             var description = cc.sys.localStorage.getItem('desc');
             var recordId = cc.sys.localStorage.getItem('recordId');
@@ -247,6 +254,8 @@ var hall = cc.Class({
     },
 
     _registerSocketEvent: function _registerSocketEvent() {
+        //KQGlobalEvent.on(Socket.Event.ReceiveGetDaiKaiDesk, this._getDaikaiRoomSocketCallback, this);
+        KQGlobalEvent.on(Socket.Event.ReceiveDaiKaiDesk, this._daikaiRoomSocketCallback, this);
         KQGlobalEvent.on(Socket.Event.JoinDesk, this._jiinRoomSocketCallback, this);
         KQGlobalEvent.on(Socket.Event.ReceiveDeskInfo, this._jiinRoomSocketCallback, this);
         KQGlobalEvent.on(Socket.Event.ReceiveCreateDesk, this._createRoomSocketCallback, this);
@@ -319,6 +328,22 @@ var hall = cc.Class({
         }
     },
 
+    _daikaiRoomSocketCallback: function _daikaiRoomSocketCallback(response) {
+        if (response.result)
+            //this.showWaitingMessage(JSON.stringify(response.data.daikai));
+            this.alertMessage(JSON.stringify(response.data.daikai));
+    },
+    //_getDaikaiRoomSocketCallback:function(response){
+    //    //console.log("JSON.stringify(response.data.daikaiList)=====");
+    //    if (response.result) {
+    //        var daikaiList = JSON.stringify(response.data.daikaiList);
+    //        cc.log(daikaiList,"接受到代开房数据：-----------------");
+    //    }
+    //    if(response.result)
+    //    //this.showWaitingMessage(JSON.stringify(response.data.daikai));
+    //        this.alertMessage(JSON.stringify(response.data));
+    //},
+
     _socketReceiveHallInfo: function _socketReceiveHallInfo(response) {
         if (cc.isRoomViewShow) {
             return;
@@ -364,6 +389,31 @@ var hall = cc.Class({
                 cc.sys.openURL(this.aUrl);
                 // jsb.reflection.callStaticMethod(KQNativeInvoke.ANDRIODClassName, "downloadNewVersion", "(Ljava/lang/String;)V", this.aUrl);
             }
+    },
+
+    //分享也面
+    clickOpenShare: function clickOpenShare() {
+        if (!cc.sys.isNative) {
+            var shareBg = cc.find("Canvas/shere_bg");
+            shareBg.active = true;
+            //var wxBg = this.shareBg.getChildByName("wx");
+            //var pyqBg = this.shareBg.getChildByName("PYQ");
+            //wxBg.active = true;
+            //pyqBg.active = false;
+            //this.shareBg.active = true;
+        }
+    },
+    //关闭分享页面
+    clickCloseShare: function clickCloseShare() {
+        if (!cc.sys.isNative) {
+            var shareBg = cc.find("Canvas/shere_bg");
+            shareBg.active = false;
+            //var wxBg = this.shareBg.getChildByName("wx");
+            //var pyqBg = this.shareBg.getChildByName("PYQ");
+            //wxBg.active = true;
+            //pyqBg.active = false;
+            //this.shareBg.active = true;
+        }
     },
     _createRoomSocketCallback: function _createRoomSocketCallback(response) {
         if (cc.isRoomViewShow) {
@@ -421,14 +471,14 @@ var hall = cc.Class({
     },
 
     /*#####
-    * setting1 局数  (0 | 1 | 2 )
-    * setting2 人数  (0 | 1 | 2 | 3)
-    * setting3 玩法  (0 | 1 | 2 | 3 | 4)
-    * setting4 AA制收取房费  (0 | 1 | 2 )
-    * setting5 其他  (0)
-    * setting6  
-    * setting7
-    * */
+     * setting1 局数  (0 | 1 | 2 )
+     * setting2 人数  (0 | 1 | 2 | 3)
+     * setting3 玩法  (0 | 1 | 2 | 3 | 4)
+     * setting4 AA制收取房费  (0 | 1 | 2 )
+     * setting5 其他  (0)
+     * setting6
+     * setting7
+     * */
     createDoneAction: function createDoneAction() {
         var info = {};
         var self = this;
@@ -456,7 +506,7 @@ var hall = cc.Class({
         this.createNode.getComponent('alert').dismissAction();
 
         //let self = this;
-        this.showWaitingMessage('创建中...');
+        //this.showWaitingMessage('创建中...');
         this.scheduleOnce(function () {
             self.hiddenWaitingMessage();
         }, 2.0);
@@ -464,8 +514,8 @@ var hall = cc.Class({
 
     // 随机场
     /*clickRandRoom: function () {
-      cc.director.loadScene('randRoom');
-    },*/
+     cc.director.loadScene('randRoom');
+     },*/
 
     clickRecord: function clickRecord() {
         var comp = this.recordNode.getComponent('alert');
@@ -473,11 +523,21 @@ var hall = cc.Class({
         Socket.sendGetRecrod(Socket.instance.userInfo.id);
     },
 
+    clickGetDaiKai: function clickGetDaiKai() {
+        // Socket.sendGetDaiKaiFang(Socket.instance.userInfo.id);
+        Socket.sendGetDaiKaiFang(Socket.instance.userInfo.id);
+        this.my_room.active = true;
+    },
+
     clickPlayRule: function clickPlayRule() {
         //cc.director.loadScene('rule');
         this.help = this.node.getChildByName("help");
         var comp = this.help.getComponent('alert');
         comp.alert();
+    },
+
+    dismissComplete: function dismissComplete() {
+        this.node.getChildByName("my_room").active = false;
     },
 
     clickPlay: function clickPlay() {
@@ -684,5 +744,7 @@ var hall = cc.Class({
 
 // },
 module.exports = hall;
+
+cc._RFpop();
 
 cc._RFpop();

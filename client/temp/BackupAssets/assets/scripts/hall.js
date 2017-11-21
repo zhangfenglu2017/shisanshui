@@ -1,5 +1,5 @@
 var manager = require('manager');
-const Socket = require('socket');
+const Socket = require('socket'); 
 const KQGlobalEvent = require('KQGlobalEvent');
 const AudioManager = require('AudioManager');
 const KQNativeInvoke = require('KQNativeInvoke');
@@ -9,7 +9,7 @@ let hall = cc.Class({
     extends: cc.Component,
 
     properties: {
-
+ 
         //productNodes:[cc.Node],
         shopAlertNode:cc.Node,
         createNode:cc.Node,
@@ -21,6 +21,7 @@ let hall = cc.Class({
         selectMoShi:cc.Node,        // 创建房间信息，模式（庄家模式和无特殊牌）
         selectGuiPai:cc.Node,       // 创建房间信息，模式（庄家模式和无特殊牌）
         overTime:cc.Node,           // 超时出牌
+        daikai:cc.Node,             //代开房
         //labelNotice: cc.Label,      // 公告
         labelBanner: cc.Label,      // banner label
         recordNode:cc.Node,
@@ -432,6 +433,7 @@ let hall = cc.Class({
         
         info['setting3'] = this.selectMoShi.getComponent('selectMoShi')._select;
         info['setting6'] = this.overTime.getComponent('overTime')._selected;
+        info['setting9'] = this.daikai.getComponent('daikai')._selected;
         //console.log( info['setting6'] );
         if( !info['setting3'][3] ){   // 玩法 [疯狂场,鬼牌,比花色,坐庄,马牌] info['setting3'][3]第三项表示坐庄模式，非坐庄模式的倍率是1倍
             info['setting5'] = 0;     // 倍率 (0~1) == (1~3倍)
@@ -446,7 +448,7 @@ let hall = cc.Class({
         this.createNode.getComponent('alert').dismissAction();
 
         //let self = this;
-        this.showWaitingMessage('创建中...');
+        //this.showWaitingMessage('创建中...');
         this.scheduleOnce(function() {
             self.hiddenWaitingMessage();
         }, 2.0);
@@ -481,13 +483,13 @@ let hall = cc.Class({
     },
 
     logoutAction: function() {
-        manager.setUserInfo('');
+        //manager.setUserInfo('');
         cc.director.loadScene('login');
         hall.cacheImageInfo = null;
     },
 
     exitAction:function() {
-      manager.setUserInfo('');
+      //manager.setUserInfo('');
       if (!cc.sys.isNative) {
         cc.director.loadScene('login');
         hall.cacheImageInfo = null;

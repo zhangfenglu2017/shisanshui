@@ -97,16 +97,16 @@ cc.Class({
      var playersIndex = playersInfo.playersIndex;        // 玩家的位置
      var createUserId = this._records[index].createUserId;   // 创房ID
      var sendUserId = this._records[index].userid;           // 发送人ID
-      this.isSubPage = true;
+       this.isSubPage = true;
      this.subScrollView.active = true;
      this.scrollView.active = false;
-      this.timeLabel.string = (this._records[index].createAt).substr(5,11);               // 时间
+       this.timeLabel.string = (this._records[index].createAt).substr(5,11);               // 时间
      this.jushuLabel.string = this.js(JSON.parse(this._records[index].setting2));        // 局数
      this.roomId.string = this._records[index].roomId;                                   // 房间号
      this.creat.string = this.findCreator(this._records[index].createUserId,players);    // 房主
-      this.subScrollViewContent = this.subScrollView.getComponent(cc.ScrollView).content;
+       this.subScrollViewContent = this.subScrollView.getComponent(cc.ScrollView).content;
      this.subScrollViewContent.removeAllChildren();
-      for(var i = 0; i < players.length; i++ ){
+       for(var i = 0; i < players.length; i++ ){
          var item = cc.instantiate(this.splash);
          this.subScrollViewContent.addChild(item);
          var comp = item.getComponent('recordInfo');
@@ -120,7 +120,7 @@ cc.Class({
          }
          this.records(comp,i,creator,self,index);
      }
-  },
+   },
  records:function(info,i,creator,self,index){
      if(self){
          info.node.color = new cc.Color(125, 126, 200);
@@ -132,7 +132,7 @@ cc.Class({
      info.nicknameLabels.string = players[i].nickname;
      info.id.string = players[i].id;
      info.jifen.string = scores[i];
-      var headUrl = players[i].avatarUrl;   //头像连接
+       var headUrl = players[i].avatarUrl;   //头像连接
      var sprite = info.avatarNode.getComponent(cc.Sprite);
      cc.loader.load(headUrl+".jpg", function (err, tex) {
        if (!err) {

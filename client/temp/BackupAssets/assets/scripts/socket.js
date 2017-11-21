@@ -409,6 +409,7 @@ Socket.Event = {
   ReceiveAudioMessage: "sendAudioMessage",  // 服务器发送，接收到用户发送了语音消息
   ReceivePlayCard: "playCard",              // 服务器发送，有用户已经准备好牌
   ReceiveCreateDesk: "createDesk",          // 服务器发送，创建房间的回调
+  ReceiveDaiKaiDesk: "daikaiDesk",          // 服务器发送，代开房间的回调
   ReceiveReady: "ready",                    // 服务器发送，有用户点击了准备
   ReceiveHallInfo: "getHallInfo",           // 服务器发送
   ReceiveGetUserInfo: "getUserInfo",        // 服务器发送 获取用户信息

@@ -370,6 +370,7 @@ Socket.Event = {
   InviteCode: "inviteCode",             // 客户端发送   邀请码
   JoinDesk: "joinDesk",                 // 客户端发送
   CreateDesk: "createDesk",             // 客户端发送
+  GetDaiKaiDesk:"getDaiKaiDesk",        //代开房数据获取
   LeaveDesk: "leaveDesk",               // 离开桌子
   DissolveDesk: "dissolveDesk",         // 解散桌子
   AnswerDissolve: "answerDissolve",     // 回答请求退出命令
@@ -410,6 +411,8 @@ Socket.Event = {
   ReceiveAudioMessage: "sendAudioMessage",  // 服务器发送，接收到用户发送了语音消息
   ReceivePlayCard: "playCard",              // 服务器发送，有用户已经准备好牌
   ReceiveCreateDesk: "createDesk",          // 服务器发送，创建房间的回调
+  ReceiveGetDaiKaiDesk:"getDaiKaiDesk",     // 服务器发送，代开房间 已开房间数据
+  ReceiveDaiKaiDesk: "daikaiDesk",          // 服务器发送，代开房间的回调
   ReceiveReady: "ready",                    // 服务器发送，有用户点击了准备
   ReceiveHallInfo: "getHallInfo",           // 服务器发送
   ReceiveGetUserInfo: "getUserInfo",        // 服务器发送 获取用户信息
@@ -609,6 +612,16 @@ Socket.sendGetItemRecord = function (userId, parentId) {
   };
 
   this.instance.sendMessage(this.Event.GetItemRecord, param);
+};
+
+//获取代开房记录
+Socket.sendGetDaiKaiFang = function (userId) {
+  cc.assert(userId);
+  let param = {
+    "userId": userId
+  };
+
+  this.instance.sendMessage(this.Event.GetDaiKaiDesk, param);
 };
 
 Socket.sendLeaveDesk = function (userId) {
