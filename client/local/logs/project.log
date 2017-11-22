@@ -1,358 +1,52 @@
-2017-11-20T13:24:10.050Z - normal: Load ~/.CocosCreator/settings.json
-2017-11-20T13:24:10.054Z - normal: checking language setting...
-2017-11-20T13:24:10.054Z - normal: Language: zh
-2017-11-20T13:24:11.927Z - success: protocol editor-framework registered
-2017-11-20T13:24:11.927Z - success: protocol app registered
-2017-11-20T13:24:11.928Z - success: protocol theme registered
-2017-11-20T13:24:11.928Z - success: protocol profile registered
-2017-11-20T13:24:11.928Z - success: protocol packages registered
-2017-11-20T13:24:11.928Z - success: protocol unpack registerred
-2017-11-20T13:24:11.928Z - success: protocol disable-commonjs registerred
-2017-11-20T13:24:12.037Z - normal: connected!
-2017-11-20T13:24:12.039Z - normal: Check project G:\shisanshui\client
-2017-11-20T13:24:12.042Z - normal: Initializing Cocos2d
-2017-11-20T13:24:13.434Z - normal: Initializing Asset Database
-2017-11-20T13:24:13.496Z - success: protocol uuid registerred
-2017-11-20T13:24:13.497Z - success: protocol db registerred
-2017-11-20T13:24:13.497Z - success: protocol thumbnail registerred
-2017-11-20T13:24:13.497Z - normal: Loading editor/builtin packages
-2017-11-20T13:24:14.044Z - success: assets loaded
-2017-11-20T13:24:14.046Z - success: builder loaded
-2017-11-20T13:24:14.069Z - success: hierarchy loaded
-2017-11-20T13:24:14.072Z - success: inspector loaded
-2017-11-20T13:24:14.073Z - success: keystore loaded
-2017-11-20T13:24:14.075Z - success: node-library loaded
-2017-11-20T13:24:14.077Z - success: preferences loaded
-2017-11-20T13:24:14.091Z - success: project-importer loaded
-2017-11-20T13:24:14.093Z - success: project-settings loaded
-2017-11-20T13:24:14.095Z - success: ui-kit loaded
-2017-11-20T13:24:14.138Z - success: ui-grid loaded
-2017-11-20T13:24:14.147Z - success: scene loaded
-2017-11-20T13:24:14.151Z - success: sprite-editor loaded
-2017-11-20T13:24:14.550Z - success: store loaded
-2017-11-20T13:24:14.567Z - success: timeline loaded
-2017-11-20T13:24:14.568Z - normal: Loading builtin packages
-2017-11-20T13:24:14.600Z - success: anysdk loaded
-2017-11-20T13:24:14.607Z - success: asset-db-debugger loaded
-2017-11-20T13:24:14.613Z - success: code-editor loaded
-2017-11-20T13:24:14.627Z - success: color-picker loaded
-2017-11-20T13:24:14.633Z - success: console loaded
-2017-11-20T13:24:14.638Z - success: package-manager loaded
-2017-11-20T13:24:14.643Z - success: tester loaded
-2017-11-20T13:24:14.646Z - success: ui-kit-preview-extra loaded
-2017-11-20T13:24:14.649Z - success: ui-kit-preview loaded
-2017-11-20T13:24:14.655Z - success: ui-tree loaded
-2017-11-20T13:24:14.752Z - normal: Initializing project G:\shisanshui\client
-2017-11-20T13:24:14.755Z - normal: Loading packages
-2017-11-20T13:24:14.759Z - normal: Watching packages
-2017-11-20T13:24:14.778Z - normal: Run Application
-2017-11-20T13:24:16.801Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["UI资源/粒子.png","UI资源/俱乐部_字.png","UI资源/c_00004.png","UI资源/c_00003.png","UI资源/c_00002.png","UI资源/c_00001.png","UI资源/c_00000.png","UI资源/g.png","UI资源/xd.png","UI资源/p.png","UI资源/创建.png","UI资源/cj_00009.png","UI资源/cj_00008.png","UI资源/cj_00007.png","UI资源/cj_00006.png","UI资源/cj_00005.png","UI资源/cj_00004.png","UI资源/jr_00003.png","UI资源/jr_00002.png","UI资源/jr_00001.png","UI资源/jr_00000.png","UI资源/闪光0.png","UI资源/加入.png"]
-2017-11-20T13:24:17.394Z - warn: [SpriteAtlas import] Some of the frame keys have been reformatted : ["特按钮资源/quan2.png","特殊排型/battle-penjinbi-jinbi.png","特按钮资源/q_g.png","特按钮资源/特.png","coin_effect_dir/Symbol 1.png","coin_effect_dir/Symbol 2.png","coin_effect_dir/Symbol 3.png","特殊排型/04.png","特殊排型/03.png","特殊排型/02.png","特殊排型/01.png","特殊排型/枪.png","特殊排型/hit_02.png","特殊排型/hit_01.png","比牌资源/比牌中_3.png","比牌资源/比牌中_2.png","理牌中资源/理牌中_2.png","理牌中资源/理牌中_1.png","录音资源/录音_4.png","录音资源/录音_3.png","录音资源/录音_1.png","录音资源/录音_5.png","特殊排型/球.png","特殊排型/棒球棍.png","特殊排型/棒球套.png","特殊排型/q_字.png","start/kaishi.png","start/zi.png","start/01.png","start/shanguan.png","start/爆点.png","start/quan.png","start/qiang.png","start/翅膀.png","特殊排型/字.png","特殊排型/笋01.png","特殊排型/土.png","特殊排型/笋.png","特殊排型/笋02.png","特殊排型/tu.png","特殊排型/3_zi.png","特殊排型/6_zi.png","特殊排型/底.png","特殊排型/5_字.png","特殊排型/四_zi&#032.png","特殊排型/5_土.png","特殊排型/5_笋.png","特殊排型/5_笋01.png","特殊排型/5_笋02.png","特殊排型/5_tu.png","特殊排型/c_zi&#032.png","特殊排型/ui_fanpaidonghua.png","特殊排型/6_hua.png","特殊排型/6_hua01.png","特殊排型/白.png","特殊排型/方块.png","特殊排型/梅花.png","特殊排型/红.png","特殊排型/黑桃.png","特殊排型/全小_zi&#032.png","特殊排型/全_zi&#032.png","特殊排型/5_底.png","特殊排型/5_yun&#032.png","特殊排型/5_yun01.png","特殊排型/三_zi&#032.png","特殊排型/花瓣02.png","特殊排型/花瓣01.png","特殊排型/花瓣03.png","特殊排型/花.png","特殊排型/花01.png","特殊排型/3_字.png","特殊排型/彩虹.png","特殊排型/qi.png","特殊排型/皇冠.png","特殊排型/十二_zi.png","特殊排型/法杖.png","特殊排型/1_zi.png","特殊排型/龙.png","特殊排型/q_云02.png","特殊排型/q_云01.png","特殊排型/至尊_字.png","特殊排型/青龙.png","特殊排型/q_底.png"]
-2017-11-20T13:24:24.757Z - success: preview server running at http://localhost:7456
-2017-11-20T13:24:24.757Z - normal: Compiling scripts...
-2017-11-20T13:24:28.544Z - normal: Compiled project javascript file successfully
-2017-11-20T13:24:33.617Z - normal: 1.4.0
-2017-11-20T13:50:16.297Z - normal: Compiled project javascript file successfully
-2017-11-20T13:51:03.026Z - normal: Compiled project javascript file successfully
-2017-11-20T15:54:41.841Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-20T15:54:41.953Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-20T16:31:14.461Z - normal: Compiled project javascript file successfully
-2017-11-20T16:31:14.464Z - error: Compile error: Cannot require 'i18n' from 'G:\shisanshui\client\temp\scripts\assets\scripts'. Module not found.
-    at Readable.<anonymous> (C:\CocosCreator\resources\app.asar\editor\page\compile-worker.js:1:3554)
-    at emitOne (events.js:96:13)
-    at Readable.emit (events.js:188:7)
-    at Labeled.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\read-only-stream\index.js:28:44)
-    at emitOne (events.js:96:13)
-    at Labeled.emit (events.js:188:7)
-    at Labeled.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\stream-splicer\index.js:130:18)
-    at emitOne (events.js:101:20)
-    at Labeled.emit (events.js:188:7)
-    at Deps.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\stream-splicer\index.js:130:18)
-    at C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:1022
-    at C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:466
-    at BrowserWindow.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:2045)
-    at BrowserWindow.g (events.js:286:16)
-    at emitOne (events.js:101:20)
-    at BrowserWindow.emit (events.js:188:7)
-2017-11-20T16:35:08.820Z - normal: Compiled project javascript file successfully
-2017-11-20T16:37:09.759Z - normal: Compiled project javascript file successfully
-2017-11-20T16:42:24.930Z - normal: Compiled project javascript file successfully
-2017-11-20T16:50:21.374Z - normal: Compiled project javascript file successfully
-2017-11-20T16:58:06.108Z - normal: Compiled project javascript file successfully
-2017-11-20T17:01:27.756Z - normal: Compiled project javascript file successfully
-2017-11-20T17:03:43.600Z - normal: Compiled project javascript file successfully
-2017-11-20T17:08:47.243Z - normal: Compiled project javascript file successfully
-2017-11-20T17:09:44.100Z - normal: Compiled project javascript file successfully
-2017-11-20T17:13:35.698Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2017-11-20T17:13:35.723Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 1030.00
-2017-11-20T17:13:35.723Z - normal: Simulator: FRAME SCALE = 1.00
-2017-11-20T17:13:36.045Z - normal: Simulator: Ready for GLSL
-2017-11-20T17:13:36.046Z - normal: Simulator: Ready for OpenGL 2.0
-2017-11-20T17:13:36.048Z - normal: Simulator: 
-2017-11-20T17:13:36.049Z - normal: Simulator: {
-2017-11-20T17:13:36.049Z - normal: Simulator: 	gl.version: 4.2.0 - Build 10.18.10.3262
-2017-11-20T17:13:36.049Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-11-20T17:13:36.049Z - normal: Simulator: 	cocos2d.x.version: 1.4.0-lite
-2017-11-20T17:13:36.050Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-11-20T17:13:36.056Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-11-20T17:13:36.060Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-11-20T17:13:36.060Z - normal: Simulator: 	gl.max_texture_size: 16384
-2017-11-20T17:13:36.061Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-11-20T17:13:36.061Z - normal: Simulator: 	gl.vendor: Intel
-2017-11-20T17:13:36.061Z - normal: Simulator: 	gl.renderer: Intel(R) HD Graphics 4600
-2017-11-20T17:13:36.061Z - normal: Simulator: 	gl.max_texture_units: 96
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-11-20T17:13:36.062Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-11-20T17:13:36.062Z - normal: Simulator: }
-2017-11-20T17:13:36.062Z - normal: Simulator: 
-2017-11-20T17:13:36.062Z - normal: Simulator: 
-2017-11-20T17:13:36.063Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-11-20T17:13:36.138Z - normal: Simulator: Project Config:
-2017-11-20T17:13:36.139Z - normal: Simulator:     project dir: C:\CocosCreator\resources\cocos2d-x\simulator\win32\
-2017-11-20T17:13:36.139Z - normal: Simulator:     writable path: $(PROJDIR)\
-2017-11-20T17:13:36.139Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2017-11-20T17:13:36.139Z - normal: Simulator:     frame size: 960 x 640
-2017-11-20T17:13:36.139Z - normal: Simulator:     frame scale: 1.00
-2017-11-20T17:13:36.139Z - normal: Simulator:     show console: NO
-2017-11-20T17:13:36.139Z - normal: Simulator:     write debug log: NO ()
-2017-11-20T17:13:36.140Z - normal: Simulator:     listen: 
-2017-11-20T17:13:36.140Z - normal: Simulator:     debugger: none
-2017-11-20T17:13:36.140Z - normal: Simulator:     add searching path:
-2017-11-20T17:13:36.140Z - normal: Simulator: 
-2017-11-20T17:13:36.140Z - normal: Simulator: 
-2017-11-20T17:13:36.140Z - normal: Simulator: 
-2017-11-20T17:13:36.140Z - normal: Simulator: ------------------------------------------------
-2017-11-20T17:13:36.140Z - normal: Simulator: LOAD Js FILE: main.js
-2017-11-20T17:13:36.140Z - normal: Simulator: ------------------------------------------------
-2017-11-20T17:13:37.911Z - normal: Simulator: Cocos2d-JS v3.14
-2017-11-20T17:13:38.093Z - error: Simulator: 884:mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-    at a (G:\shisanshui\client\library\bundle.project.js?009:NaN:0)
-2017-11-20T17:13:38.094Z - normal: Simulator: 
-2017-11-20T17:13:38.116Z - normal: Simulator: iShow!
-2017-11-20T17:13:38.434Z - error: Simulator: 15187:TypeError: window.location is undefined
-    at a (G:\shisanshui\client\library\bundle.project.js?009:NaN:0)
-2017-11-20T17:13:38.435Z - normal: Simulator: 
-2017-11-20T17:13:58.831Z - normal: Simulator: basic_object_finalize 08131600 ...
-2017-11-20T17:13:58.832Z - normal: Simulator: jsbindings: finalizing JS object 08131620 (WebSocket)
-2017-11-20T17:13:58.832Z - normal: Simulator: jsbindings: finalizing JS object 08131640 (SocketIO)
-2017-11-20T17:20:39.933Z - normal: Compiled project javascript file successfully
-2017-11-20T17:26:27.671Z - normal: Compiled project javascript file successfully
-2017-11-20T17:28:10.073Z - normal: Compiled project javascript file successfully
-2017-11-20T17:40:27.303Z - normal: Compiled project javascript file successfully
-2017-11-20T17:41:49.298Z - normal: Compiled project javascript file successfully
-2017-11-20T17:43:41.715Z - normal: Compiled project javascript file successfully
-2017-11-20T17:44:14.169Z - normal: Compiled project javascript file successfully
-2017-11-20T17:46:34.753Z - normal: Compiled project javascript file successfully
-2017-11-20T17:47:22.003Z - normal: Compiled project javascript file successfully
-2017-11-20T17:49:59.035Z - normal: Compiled project javascript file successfully
-2017-11-20T17:54:48.835Z - normal: Compiled project javascript file successfully
-2017-11-20T17:55:21.761Z - normal: Compiled project javascript file successfully
-2017-11-20T17:56:45.313Z - normal: Compiled project javascript file successfully
-2017-11-20T17:58:08.663Z - normal: Compiled project javascript file successfully
-2017-11-20T17:59:11.536Z - normal: Compiled project javascript file successfully
-2017-11-20T18:00:27.204Z - normal: Compiled project javascript file successfully
-2017-11-20T18:03:09.881Z - normal: Compiled project javascript file successfully
-2017-11-20T18:04:21.102Z - normal: Compiled project javascript file successfully
-2017-11-20T18:05:58.150Z - normal: Compiled project javascript file successfully
-2017-11-20T18:08:50.844Z - normal: Compiled project javascript file successfully
-2017-11-20T18:10:30.217Z - normal: Compiled project javascript file successfully
-2017-11-20T18:13:17.711Z - normal: Compiled project javascript file successfully
-2017-11-20T18:15:15.939Z - normal: Compiled project javascript file successfully
-2017-11-20T18:16:22.492Z - normal: Compiled project javascript file successfully
-2017-11-20T18:19:41.091Z - normal: Compiled project javascript file successfully
-2017-11-20T18:20:56.215Z - normal: Compiled project javascript file successfully
-2017-11-21T01:35:34.443Z - normal: Compiled project javascript file successfully
-2017-11-21T01:47:32.223Z - normal: Compiled project javascript file successfully
-2017-11-21T01:55:53.885Z - normal: Compiled project javascript file successfully
-2017-11-21T01:55:53.887Z - error: Compile error: ENOENT, node_modules\ieee754\index.js not found in C:\CocosCreator\resources\app.asar
-    at Readable.<anonymous> (C:\CocosCreator\resources\app.asar\editor\page\compile-worker.js:1:3554)
-    at emitOne (events.js:96:13)
-    at Readable.emit (events.js:188:7)
-    at Labeled.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\read-only-stream\index.js:28:44)
-    at emitOne (events.js:96:13)
-    at Labeled.emit (events.js:188:7)
-    at Labeled.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\stream-splicer\index.js:130:18)
-    at emitOne (events.js:101:20)
-    at Labeled.emit (events.js:188:7)
-    at Deps.<anonymous> (C:\CocosCreator\resources\app.asar\node_modules\stream-splicer\index.js:130:18)
-    at C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:1022
-    at C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:466
-    at BrowserWindow.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\compiler.js:1:2045)
-    at BrowserWindow.g (events.js:286:16)
-    at emitOne (events.js:101:20)
-    at BrowserWindow.emit (events.js:188:7)
-2017-11-21T01:57:36.425Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T01:57:36.483Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T02:03:44.549Z - normal: Compiled project javascript file successfully
-2017-11-21T02:05:19.956Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T02:05:20.120Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T02:06:08.329Z - normal: Compiled project javascript file successfully
-2017-11-21T02:07:42.460Z - normal: Compiled project javascript file successfully
-2017-11-21T02:28:12.440Z - normal: Compiled project javascript file successfully
-2017-11-21T02:31:31.085Z - normal: Compiled project javascript file successfully
-2017-11-21T02:43:14.687Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T02:43:14.766Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T02:43:52.844Z - normal: Compiled project javascript file successfully
-2017-11-21T02:48:20.890Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T02:48:20.977Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T02:52:35.488Z - normal: Compiled project javascript file successfully
-2017-11-21T02:53:14.467Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T02:53:14.684Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T02:53:59.089Z - normal: Compiled project javascript file successfully
-2017-11-21T02:57:22.261Z - normal: Compiled project javascript file successfully
-2017-11-21T02:59:04.282Z - normal: Compiled project javascript file successfully
-2017-11-21T03:00:49.519Z - normal: Compiled project javascript file successfully
-2017-11-21T03:01:27.551Z - normal: Compiled project javascript file successfully
-2017-11-21T03:05:33.840Z - normal: Compiled project javascript file successfully
-2017-11-21T03:07:54.957Z - normal: Compiled project javascript file successfully
-2017-11-21T03:08:54.907Z - normal: Compiled project javascript file successfully
-2017-11-21T03:10:10.706Z - normal: Compiled project javascript file successfully
-2017-11-21T03:10:59.673Z - normal: Compiled project javascript file successfully
-2017-11-21T03:19:51.191Z - normal: Compiled project javascript file successfully
-2017-11-21T03:20:58.083Z - normal: Compiled project javascript file successfully
-2017-11-21T06:04:40.052Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T06:04:41.963Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T12:06:18.351Z - normal: Load worker timeout, reload worker.
-2017-11-21T12:06:37.885Z - normal: Compiled project javascript file successfully
-2017-11-21T12:14:51.115Z - normal: Compiled project javascript file successfully
-2017-11-21T12:16:30.527Z - normal: Compiled project javascript file successfully
-2017-11-21T12:54:36.807Z - normal: Compiled project javascript file successfully
-2017-11-21T13:12:14.163Z - normal: Compiled project javascript file successfully
-2017-11-21T13:14:06.945Z - normal: Compiled project javascript file successfully
-2017-11-21T13:16:49.961Z - normal: Compiled project javascript file successfully
-2017-11-21T13:17:43.297Z - normal: Compiled project javascript file successfully
-2017-11-21T13:20:17.188Z - normal: Compiled project javascript file successfully
-2017-11-21T13:23:23.255Z - normal: Compiled project javascript file successfully
-2017-11-21T13:27:23.648Z - normal: Compiled project javascript file successfully
-2017-11-21T13:29:06.897Z - normal: Compiled project javascript file successfully
-2017-11-21T13:30:25.458Z - normal: Compiled project javascript file successfully
-2017-11-21T13:32:18.070Z - normal: Compiled project javascript file successfully
-2017-11-21T13:39:48.165Z - normal: Compiled project javascript file successfully
-2017-11-21T14:29:51.218Z - normal: Compiled project javascript file successfully
-2017-11-21T14:47:17.094Z - normal: Compiled project javascript file successfully
-2017-11-21T14:51:48.606Z - normal: Compiled project javascript file successfully
-2017-11-21T14:52:52.327Z - normal: Compiled project javascript file successfully
-2017-11-21T14:59:38.172Z - normal: Compiled project javascript file successfully
-2017-11-21T15:00:22.035Z - normal: Compiled project javascript file successfully
-2017-11-21T15:02:08.596Z - normal: Compiled project javascript file successfully
-2017-11-21T15:04:34.502Z - normal: Compiled project javascript file successfully
-2017-11-21T15:07:01.838Z - normal: Compiled project javascript file successfully
-2017-11-21T15:13:02.346Z - normal: Compiled project javascript file successfully
-2017-11-21T15:14:07.897Z - normal: Compiled project javascript file successfully
-2017-11-21T15:39:13.939Z - normal: Compiled project javascript file successfully
-2017-11-21T15:40:44.083Z - normal: Compiled project javascript file successfully
-2017-11-21T15:41:20.120Z - normal: Compiled project javascript file successfully
-2017-11-21T15:41:48.042Z - normal: Compiled project javascript file successfully
-2017-11-21T15:43:50.083Z - normal: Compiled project javascript file successfully
-2017-11-21T15:44:46.230Z - normal: Compiled project javascript file successfully
-2017-11-21T15:48:57.076Z - normal: Compiled project javascript file successfully
-2017-11-21T15:51:10.448Z - normal: Compiled project javascript file successfully
-2017-11-21T15:54:12.461Z - normal: Compiled project javascript file successfully
-2017-11-21T15:58:10.509Z - normal: Compiled project javascript file successfully
-2017-11-21T16:02:19.446Z - normal: Compiled project javascript file successfully
-2017-11-21T16:06:46.744Z - normal: Compiled project javascript file successfully
-2017-11-21T16:09:41.700Z - normal: Compiled project javascript file successfully
-2017-11-21T16:32:14.099Z - normal: Compiled project javascript file successfully
-2017-11-21T16:34:46.808Z - normal: Compiled project javascript file successfully
-2017-11-21T16:40:45.688Z - normal: Compiled project javascript file successfully
-2017-11-21T16:41:16.854Z - normal: Compiled project javascript file successfully
-2017-11-21T16:42:17.468Z - normal: Compiled project javascript file successfully
-2017-11-21T16:43:40.854Z - normal: Load worker timeout, reload worker.
-2017-11-21T16:43:45.917Z - normal: Compiled project javascript file successfully
-2017-11-21T16:44:49.554Z - normal: Compiled project javascript file successfully
-2017-11-21T16:45:49.320Z - normal: Compiled project javascript file successfully
-2017-11-21T16:47:57.403Z - normal: Compiled project javascript file successfully
-2017-11-21T16:53:21.843Z - normal: Compiled project javascript file successfully
-2017-11-21T16:54:54.662Z - normal: Compiled project javascript file successfully
-2017-11-21T16:56:34.161Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T16:56:34.407Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T17:07:49.620Z - normal: Compiled project javascript file successfully
-2017-11-21T17:07:53.311Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
-Node path: "userInfoSelf/homerun"
-Asset url: "db://assets/prefabs/userInfo.prefab"
-Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
-
-2017-11-21T17:07:53.529Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
-Node path: "CardPrefab"
-Asset url: "db://assets/prefabs/CardPrefab.prefab"
-Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
-
-2017-11-21T17:12:11.116Z - normal: Compiled project javascript file successfully
-2017-11-21T17:15:04.171Z - normal: Compiled project javascript file successfully
-2017-11-21T17:16:18.501Z - normal: Compiled project javascript file successfully
-2017-11-21T17:20:18.473Z - normal: Compiled project javascript file successfully
-2017-11-21T17:21:39.142Z - normal: Compiled project javascript file successfully
-2017-11-21T17:22:52.195Z - normal: Compiled project javascript file successfully
-2017-11-21T17:22:58.782Z - normal: Compiled project javascript file successfully
-2017-11-21T17:25:26.442Z - normal: Compiled project javascript file successfully
-2017-11-21T17:27:33.702Z - normal: Load worker timeout, reload worker.
-2017-11-21T17:27:38.253Z - normal: Compiled project javascript file successfully
+2017-11-22T09:14:26.510Z - normal: Load ~/.CocosCreator/settings.json
+2017-11-22T09:14:26.518Z - normal: checking language setting...
+2017-11-22T09:14:26.519Z - normal: Language: zh
+2017-11-22T09:14:31.787Z - success: protocol editor-framework registered
+2017-11-22T09:14:31.787Z - success: protocol app registered
+2017-11-22T09:14:31.787Z - success: protocol theme registered
+2017-11-22T09:14:31.788Z - success: protocol profile registered
+2017-11-22T09:14:31.788Z - success: protocol packages registered
+2017-11-22T09:14:31.788Z - success: protocol unpack registerred
+2017-11-22T09:14:31.789Z - success: protocol disable-commonjs registerred
+2017-11-22T09:14:31.895Z - normal: connected!
+2017-11-22T09:14:31.906Z - normal: Check project F:\shisanshui\client
+2017-11-22T09:14:31.910Z - normal: Initializing Cocos2d
+2017-11-22T09:14:34.172Z - normal: Initializing Asset Database
+2017-11-22T09:14:34.612Z - success: protocol uuid registerred
+2017-11-22T09:14:34.613Z - success: protocol db registerred
+2017-11-22T09:14:34.613Z - success: protocol thumbnail registerred
+2017-11-22T09:14:34.614Z - normal: Loading editor/builtin packages
+2017-11-22T09:14:35.457Z - success: assets loaded
+2017-11-22T09:14:35.474Z - success: builder loaded
+2017-11-22T09:14:35.478Z - success: hierarchy loaded
+2017-11-22T09:14:35.481Z - success: inspector loaded
+2017-11-22T09:14:35.482Z - success: keystore loaded
+2017-11-22T09:14:35.486Z - success: node-library loaded
+2017-11-22T09:14:35.489Z - success: preferences loaded
+2017-11-22T09:14:35.505Z - success: project-importer loaded
+2017-11-22T09:14:35.508Z - success: project-settings loaded
+2017-11-22T09:14:35.532Z - success: ui-kit loaded
+2017-11-22T09:14:35.541Z - success: ui-grid loaded
+2017-11-22T09:14:35.549Z - success: scene loaded
+2017-11-22T09:14:35.556Z - success: sprite-editor loaded
+2017-11-22T09:14:36.002Z - success: store loaded
+2017-11-22T09:14:36.032Z - success: timeline loaded
+2017-11-22T09:14:36.032Z - normal: Loading builtin packages
+2017-11-22T09:14:36.042Z - success: anysdk loaded
+2017-11-22T09:14:36.052Z - success: asset-db-debugger loaded
+2017-11-22T09:14:36.052Z - success: code-editor loaded
+2017-11-22T09:14:36.062Z - success: color-picker loaded
+2017-11-22T09:14:36.062Z - success: console loaded
+2017-11-22T09:14:36.062Z - success: package-manager loaded
+2017-11-22T09:14:36.074Z - success: tester loaded
+2017-11-22T09:14:36.076Z - success: ui-kit-preview-extra loaded
+2017-11-22T09:14:36.076Z - success: ui-kit-preview loaded
+2017-11-22T09:14:36.076Z - success: ui-tree loaded
+2017-11-22T09:14:36.187Z - normal: Initializing project F:\shisanshui\client
+2017-11-22T09:14:36.187Z - normal: Loading packages
+2017-11-22T09:14:36.187Z - normal: Watching packages
+2017-11-22T09:14:36.226Z - normal: Run Application
+2017-11-22T09:14:39.864Z - success: preview server running at http://localhost:7456
+2017-11-22T09:14:39.864Z - normal: Compiling scripts...
+2017-11-22T09:14:47.210Z - normal: Compiled project javascript file successfully
+2017-11-22T09:14:55.808Z - normal: 1.4.0

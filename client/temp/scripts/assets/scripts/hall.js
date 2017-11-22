@@ -31,6 +31,7 @@ var hall = cc.Class({
         overTime: cc.Node, // 超时出牌
         daikai: cc.Node, //代开房
         my_room: cc.Node, //代开窗口
+        zhongtujinru: cc.Node, //中途进入
         //labelNotice: cc.Label,      // 公告
         labelBanner: cc.Label, // banner label
         recordNode: cc.Node,
@@ -491,6 +492,7 @@ var hall = cc.Class({
         info['setting3'] = this.selectMoShi.getComponent('selectMoShi')._select;
         info['setting6'] = this.overTime.getComponent('overTime')._selected;
         info['setting9'] = this.daikai.getComponent('daikai')._selected;
+        info['setting10'] = this.zhongtujinru.getComponent('zhongtujinru')._selected;
         //console.log( info['setting6'] );
         if (!info['setting3'][3]) {
             // 玩法 [疯狂场,鬼牌,比花色,坐庄,马牌] info['setting3'][3]第三项表示坐庄模式，非坐庄模式的倍率是1倍
